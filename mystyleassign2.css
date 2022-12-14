@@ -1,0 +1,18 @@
+div{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: larger;
+    width: 300px;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 9px 12px 9px;
+    border:2px solid black  ;
+
+}
+
+
+
+h2{
+    letter-spacing: 4px;
+    color: green;
+}
