@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap%27');
+/* Global */
+*{
+  font-family: 'Roboto', sans-serif;
+}   
+body{
+  background-color: #82C3EC;
+}
+h1{
+  letter-spacing: 3px;
+text-align: center;
+color: #F1F6F5;
+}
+
+
+
+/* table */
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    width: 420px;
+    height: 7px;
+    border: 1px solid black;
+  }
+  th {
+    background-color: #472183;
+    color: white;
+    letter-spacing: 2px;
+  }
+  tr{
+    background-color: #F1F6F5;
+  }
+  tr:hover {background-color: #4B56D2;
+  color: #F1F6F5;}
+  
+  .table-hide{
+    empty-cells: hide;
+  }
+/* register */
+.input{
+  width: 14.5%;
+  margin: 1px;
+  background-color: #F1F6F5;;
+  color: white;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 4px; 
+  transition: width 0.4s ease-in-out;
+  
+}
+.input:focus {
+  background-color: lightblue;
+  color: black;
+  border: 3px solid #555;
+  width: 99%;
+}
+.register{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-color: lightblue; 
+  border: black solid 2px ;
+  border-radius: 4px;
+  font-size: 14px;
+  color: black;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.register:hover{
+  background-color: #472183;
+    color: white;
+   
+}
+.register:active {
+  background-color: lightblue;
+  color: black;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+/* remove */
+.remove{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-color: lightblue; 
+  border: black solid 2px ;
+  border-radius: 4px;
+  font-size: 14px;
+  color: black;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.remove:hover{
+  background-color: #472183;
+    color: white;
+   
+}
+.remove:active {
+  background-color: lightblue;
+  color: black;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+nav.buttons{
+  display: flex;
+  padding: 10px 1px;
+  justify-content: space-between ;
+}
